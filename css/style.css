@@ -1,0 +1,94 @@
+  
+  .topnav {
+    background-color: #4fb6f3;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 23px 5px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #4fb6f3;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .text1 {
+    line-height: 1.5;
+    text-align: center;
+  }
+  .load {
+    width: 20%;
+    left: 22%;
+    position: relative;
+  }
+  .linkedin{
+    width: 15%;
+    left: 25%;
+    position: relative;
+  }
+  .git{
+    width: 15%;
+    left: 20%;
+    position: relative; 
+  }
+  h2{
+    text-align: center;
+
+  }
+  .contact{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  .competence1{
+    text-decoration: none;
+    text-align: center;
+  }
+  .competence2{
+    text-decoration: none;
+    text-align: center;
+  }
+  .logoadobe{
+    width: 60px;
+    position: relative;
+}
+
+
+
+/* écran tablette */
+@media screen and (min-width: 768px) and ( max-width: 1023px) {  
+
+    .li {
+        float: left;
+      }
+      
+      .a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+      }
+
+}
+/* écran pc */
+@media screen and (min-width: 1024px) {
+    
+}
+
